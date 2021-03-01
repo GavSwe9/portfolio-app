@@ -29,7 +29,7 @@ export const statesVisited = new Map([
     ["Rhode-Island", 0],
     ["Tennessee", 2],
     ["Connecticut", 2],
-    ["Georgia", 2],
+    ["Georgia", 1],
     ["Wyoming", 2],
     ["Maryland", 2],
     ["Pennsylvania", 2],
