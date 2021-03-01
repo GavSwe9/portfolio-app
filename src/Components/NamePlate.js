@@ -27,7 +27,7 @@ export function NamePlate() {
                     </div>
                 </div>
                 <div className="w-full md:w-1/3">
-                    <div className="w-64 mr-2 text-md border-2 border-gray-100 rounded-lg float-right hidden md:block hover:bg-gray-600">
+                    <div className="w-64 mr-2 text-md font-light border-2 border-gray-100 rounded-lg float-right hidden md:block hover:bg-gray-600">
                         <Link to="/Travels">Hey Gav, where have you been?</Link>
                     </div>
                 </div>
