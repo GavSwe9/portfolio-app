@@ -1,5 +1,5 @@
 import React from 'react'
-import MondayRankingsLogo from '../../Images/MondayRankingsLogo.svg'
+import MondayRankingsLogo from '../../../Images/MondayRankingsLogo.svg'
 
 export function MondayRankings() {
     return (
@@ -12,10 +12,10 @@ export function MondayRankings() {
             </div>
             <div className="w-5/6 mx-auto">
                 <div className="mb-2">
-                    My favorite project thus far, MondayRankings allow my friends and I to submit college basketball rankings and aggreates a group poll.
+                    My favorite project thus far, MondayRankings allows my friends and I to submit college basketball rankings and aggreates a group poll.
                 </div>
                 <div className="mb-2">
-                    I've opened this up so that anyone can sign up, log in, and submit their rankings, although they will not affect the main aggreate rankings.
+                    I've opened this up so that anyone can sign up, log in, and submit their rankings, although they will not affect the main aggregate rankings.
                 </div>
             </div>
         </div>

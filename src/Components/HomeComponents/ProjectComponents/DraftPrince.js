@@ -1,5 +1,5 @@
 import React from 'react'
-import DraftPrinceLogo from '../../Images/PrinceLogo.png'
+import DraftPrinceLogo from '../../../Images/PrinceLogo.png'
 
 export function DraftPrince() {
     return (

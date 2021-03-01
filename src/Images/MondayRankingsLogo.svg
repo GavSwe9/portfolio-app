@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 970.24">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 836 970.24">
 <defs>
 <style>
 .cls-1{
@@ -6,10 +6,9 @@
     letter-spacing:-0.24em;
 }
 .cls-1,.cls-2,.cls-3{
-    fill:#fff;
+    fill:#FFFFFF;
     stroke:#F97316;
-    stroke-width:30px
-
+    stroke-width:30px;
 }
 .cls-1,.cls-3{
     font-family:GillSans, Gill Sans;
@@ -30,8 +29,8 @@
 }
 </style>
 </defs>
-<text class="cls-2" transform="translate(445 740.89) scale(0.95 1)">R</text>
-<text class="cls-1" transform="translate(0 740.89) scale(0.95 1)">M</text>
+<text class="cls-1" transform="translate(0 740.89) scale(0.86 1)">M</text>
+<text class="cls-2" transform="translate(398.75 740.9) scale(0.95 1)">R</text>
 <!-- <text class="cls-3" transform="translate(106.35 861.94) scale(0.74 1)">MON
 <tspan class="cls-4" x="214.9" y="0">D</tspan>
 <tspan class="cls-5" x="279.33" y="0">A</tspan>

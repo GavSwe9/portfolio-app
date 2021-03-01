@@ -1,5 +1,5 @@
 import React from 'react'
-import uvaLogo from '../Images/UVa-logo-blue.png'
+import uvaLogo from '../../Images/UVa-logo-blue.png'
 
 export function Education(){
     return (

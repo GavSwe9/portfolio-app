@@ -1,5 +1,5 @@
 import React from 'react'
-import gitLogo from '../../Images/Git.png'
+import gitLogo from '../../../Images/Git.png'
 
 export function Github() {
     return (
@@ -12,7 +12,7 @@ export function Github() {
             </div>
             <div className="w-5/6 mx-auto">
                 <div className="mb-2">
-                    I keep a few things on Github, such as repositiories for projects such as MondayRankings and DraftPrince, as well as REST APIs for hockey and football data.
+                    I keep a few things on Github, including repositiories for projects such as Monday Rankings and Draft Prince, as well as REST APIs for hockey and football data.
                 </div>
             </div>
         </div>

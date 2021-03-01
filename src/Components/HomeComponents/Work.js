@@ -1,5 +1,5 @@
 import React from 'react'
-import dbacksLogo from '../Images/DBacks-logo.svg'
+import dbacksLogo from '../../Images/DBacks-logo.svg'
 
 export function Work() {
     return (
@@ -17,14 +17,14 @@ export function Work() {
                 Software Developer, R&D, Baseball Systems
             </div>
             <div className="font-semibold mx-5 pb-2 border-b-2 border-dbacks">
-                October 2017 - Present
+                October 2017 - January 2021
             </div>
             <div className="w-5/6 mx-auto py-2">
                 <div className="mb-2">
-                    Working on the Major League Baseball organization’s internal database, ETL processes, and applications used by front office personnel and player development staff
+                    Worked on the Major League Baseball organization’s internal database, ETL processes, and applications used by front office personnel and player development staff
                 </div>
                 <div className="mb-2">
-                    Daily responsibilities include improving and building new features within the D-Backs proprietary baseball system, along with building and managing ETL processes and backend systems
+                    Daily responsibilities included improving and building new features within the D-Backs proprietary baseball system, along with building and managing ETL processes and backend systems
                 </div>
             </div>
 
