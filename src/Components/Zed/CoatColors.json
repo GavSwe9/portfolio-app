@@ -1,0 +1,433 @@
+{
+    "Aggressive Azure": {
+        "group": "Neptune",
+        "rarity": "Super Rare"
+    },
+
+    "Alice Blue": {
+        "group": "Neptune",
+        "rarity": "Rare"
+    },
+    "Cadet Blue": {
+        "group": "Neptune",
+        "rarity": "Rare"
+    },
+    "Powder Blue": {
+        "group": "Neptune",
+        "rarity": "Rare"
+    },
+    "Royal Blue": {
+        "group": "Neptune",
+        "rarity": "Rare"
+    },
+    "Absolute Zero": {
+        "group": "Neptune",
+        "rarity": "Rare"
+    },
+
+    "Air Superiority Blue": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Azure Mist": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Cosmic Cobalt": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Azure": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Bondi Blue": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Bleu De France": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Celestial Blue": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Cerulean Frost": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Egyptian Blue": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+    "Bright Cerulean": {
+        "group": "Neptune",
+        "rarity": "Common"
+    },
+
+    
+    "Honeydew": {
+        "group": "Earth",
+        "rarity": "Super Rare"
+    },
+
+    "Rosy Brown": {
+        "group": "Earth",
+        "rarity": "Rare"
+    },
+    "Antique Brass": {
+        "group": "Earth",
+        "rarity": "Rare"
+    },
+
+
+    "Brown Sugar": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Champagne Papi": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Cinereous": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Copper Penny": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Coyote Brown": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Dark Lava": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Deep Taupe": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Field Drab": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Sienna": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+    "Taupe": {
+        "group": "Earth",
+        "rarity": "Common"
+    },
+
+
+    "Gainsboro": {
+        "group": "Wild",
+        "rarity": "Super Rare"
+    },
+
+    "Chartreuse": {
+        "group": "Wild",
+        "rarity": "Rare"
+    },
+    "Sir Aquamarine": {
+        "group": "Wild",
+        "rarity": "Rare"
+    },
+
+    "AO": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Feldgrau": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Cal Poly Pomona": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Caribbean Green": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Dark Moss": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Dartmouth Green": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+    "Space Sparkle": {
+        "group": "Wild",
+        "rarity": "Common"
+    },
+
+
+    "Slate Gray": {
+        "group": "Moon",
+        "rarity": "Super Rare"
+    },
+    "Stronghold Ivory": {
+        "group": "Moon",
+        "rarity": "Super Rare"
+    },
+    "Arctic Snow": {
+        "group": "Moon",
+        "rarity": "Super Rare"
+    },
+
+    "Ghost White": {
+        "group": "Moon",
+        "rarity": "Rare"
+    },
+    "White Smoke": {
+        "group": "Moon",
+        "rarity": "Rare"
+    },
+
+    "Anti-Flash White": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Antique White": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Battle Horse Gray": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Midnight Black": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Alabaster": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Black Chocolate": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+    "Shadow Fighter": {
+        "group": "Moon",
+        "rarity": "Common"
+    },
+
+
+    "Peach Puff": {
+        "group": "Fiery",
+        "rarity": "Super Rare"
+    },
+
+    "Coral Wave": {
+        "group": "Fiery",
+        "rarity": "Rare"
+    },
+    "Firebrick": {
+        "group": "Fiery",
+        "rarity": "Rare"
+    },
+
+    "Alizarin Crimson": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Atomic Tangerine": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Big Dip O’Ruby": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Bittersweet Shimmer": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Colombo Spice": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Burnt Umber": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Crimson Tide": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "English Vermillion": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Fuzzy Wuzzy": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Burnt Sienna": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Cinnabar": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+    "Fire Opal": {
+        "group": "Fiery",
+        "rarity": "Common"
+    },
+
+
+    "Cornsilk": {
+        "group": "Classic",
+        "rarity": "Super Rare"
+    },
+
+    "Golden Rod": {
+        "group": "Classic",
+        "rarity": "Rare"
+    },
+    "Burlywood": {
+        "group": "Classic",
+        "rarity": "Rare"
+    },
+
+    "Arylide Yellow": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Banana Mania": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Buff Gold": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Café Au Lait": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Chrome Yellow": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Cosmic Latte": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Desert Sand": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Fawn": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Flex": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+    "Hairy Canary": {
+        "group": "Classic",
+        "rarity": "Common"
+    },
+
+
+    "Papaya Whip": {
+        "group": "Mystical",
+        "rarity": "Super Rare"
+    },
+
+    "Misty Rose": {
+        "group": "Mystical",
+        "rarity": "Rare"
+    },
+    "Pale Violet": {
+        "group": "Mystical",
+        "rarity": "Rare"
+    },
+
+    "Mystic Maroon": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Oval Orchid": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Thistle": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Amethyst": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Baker-Miller Pink": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Byzantine": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Byzantium": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "China Pink": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "China Rose": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Cinnamon Satin": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Cotton Candy": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Cyclamen": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Dark Byzantium": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Destiny": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Electric Violet": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Eminence": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Fandango": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Fiery Rose": {
+        "group": "Mystical",
+        "rarity": "Common"
+    },
+    "Suave Mauve": {
+        "group": "Mystical",
+        "rarity": "Common"
+    }
+}

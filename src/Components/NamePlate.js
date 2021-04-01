@@ -5,17 +5,29 @@ import gavswe from '../Images/gavswe.png'
 export function NamePlate() {
     return (
         <div className="pb-2 bg-gray-700 text-gray-100 select-none text-center">
-            <div className="w-full">
-                <img className="w-24 mx-auto" src={gavswe} />
+
+            <div className="w-60 mx-auto">
+                <Link to="/Home">
+                    <div className="w-full">
+                        <img className="w-24 mx-auto" src={gavswe} />
+                    </div>
+                    <div className="text-3xl">
+                        Gavin Sweeney
+                    </div>
+                    <div className="text-md font-semibold">
+                        Software Engineer
+                    </div>
+                </Link>
             </div>
-            <div className="text-3xl">
-                Gavin Sweeney
-            </div>
-            <div className="text-md font-semibold">
-                Software Engineer
-            </div>
+            
             <div className="flex justify-items-center">
-                <div className="w-full md:w-1/3"></div>
+                <div className="w-full md:w-1/3">
+                    <div className="ml-2 text-3xl float-left">
+                        <Link to="/Horses">
+                            &#128052;
+                        </Link>
+                    </div>
+                </div>
                 <div className="w-1/3">
                     <div className="w-28 mt-1 mx-auto text-md font-semibold bg-gray-100 text-gray-700 rounded-md cursor-pointer flex justify-center" onClick={() => window.open("https://gavswe-resume.s3.amazonaws.com/Gavin_Sweeney_Resume.pdf", "_blank")}>
                         <div>

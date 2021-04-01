@@ -3,7 +3,7 @@ import uvaLogo from '../../Images/UVa-logo-blue.png'
 
 export function Education(){
     return (
-        <div className="w-full pt-4 md:w-1/2 bg-orange-600 text-orange-50 select-none">
+        <div className="w-full pt-4 lg:w-1/2 bg-orange-600 text-orange-50 select-none">
             <div className="w-40 mx-auto rounded-full text-lg text-orange-600 font-semibold bg-orange-50">
                 Education
             </div>

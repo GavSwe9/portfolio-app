@@ -1,9 +1,10 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { Home } from './Components/Home';
-import Maps from './Components/Maps/Maps';
-import { NotFound } from './Components/NotFound';
-import { Resume } from './Components/Resume/Resume';
+import { Home } from './Home';
+import Maps from './Maps/Maps';
+import { NotFound } from './NotFound';
+import { Resume } from './Resume/Resume';
+import { ZedMarket } from './Zed/ZedMarket';
 
 export function Routes() {
     return (
@@ -20,6 +21,10 @@ export function Routes() {
             <Route exact path = "/Travels" >
                 <Maps />
             </Route>
+            <Route exact path = "/Horses" >
+                <ZedMarket />
+            </Route>
+            
             <Route>
                 <NotFound />
             </Route>

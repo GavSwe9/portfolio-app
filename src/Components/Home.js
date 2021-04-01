@@ -1,17 +1,19 @@
 import React from 'react'
 
 import { Education } from './HomeComponents/Education';
-import { Work } from './HomeComponents/Work';
+import { WorkDbacks } from './HomeComponents/WorkDbacks';
 import { Projects } from './HomeComponents/Projects';
 import { Link } from 'react-router-dom';
+import { WorkCapOne } from './HomeComponents/WorkCapOne';
 
 export function Home() {
     return (
         <div className="text-center">
 
-            <div className="md:flex shadow-lg">
+            <div className="lg:flex shadow-lg">
                 <Education />
-                <Work />
+                <WorkDbacks />
+                <WorkCapOne />
             </div>
 
             <div>
