@@ -1,6 +1,6 @@
 import React from 'react'
-import zedLogo from './ZedLogo.svg'
-import openSeaLogo from './OpenSeaLogo.svg'
+import zedLogo from './Images/ZedLogo.svg'
+import openSeaLogo from './Images/OpenSeaLogo.svg'
 
 let coatColors = require('./CoatColors.json')
 

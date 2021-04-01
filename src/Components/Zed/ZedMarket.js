@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import { ZedFilters } from './ZedFilters';
 import { ZedList } from './ZedList';
+import UpArrow from './Images/UpArrow.svg'
+import DownArrow from './Images/DownArrow.svg'
 
 export function ZedMarket() {
-    let [loadingMarket, setLoadingMarket] = useState(true);
+    let [loadingMarket, setLoadingMarket] = useState(false);
     let [loadingHorses, setLoadingHorses] = useState(true);
     let [limit, setLimit] = useState(20);
     let [horses, setHorses] = useState([]);
     let [filterObj, setFilterObj] = useState({});
     let [orderBy, setOrderby] = useState("created");
+    let [reverseOrder, setReverseOrder] = useState(false);
 
     let bloodlineColors = {
         "Nakamoto": {
@@ -30,7 +33,7 @@ export function ZedMarket() {
     }
 
     useEffect(() => {
-        loadMarket();
+        loadHorses();
     }, [])
 
     function increaseLimit() {
@@ -51,6 +54,7 @@ export function ZedMarket() {
     }
 
     function loadMarket() {
+        setLoadingMarket(true);
         fetch("https://jjuspuh5i6.execute-api.us-east-1.amazonaws.com/dev/loadMarket")
             .then(response => response.json())
             .then(data => {
@@ -109,7 +113,11 @@ export function ZedMarket() {
     }
 
     function updateOrder(newOrderBy) {
+        console.log(newOrderBy, orderBy);
         if (newOrderBy !== orderBy) {
+            document.getElementById("order-arrow-" + newOrderBy).setAttribute("src", DownArrow);
+            document.getElementById("order-arrow-" + newOrderBy).style.visibility = "visible";
+            document.getElementById("order-arrow-" + orderBy).style.visibility = "hidden";
 
             let groupOptions = document.getElementsByClassName("order");
             for (let i = 0; i < groupOptions.length; i++) {
@@ -118,20 +126,43 @@ export function ZedMarket() {
 
             document.getElementById("order-" + newOrderBy).style.backgroundColor = "#eee";
 
+            setReverseOrder(false);
             setOrderby(newOrderBy);
-            orderHorses(newOrderBy);
+            orderHorses(newOrderBy, false);
+        }
+        else {
+            // Set Arrows
+            document.getElementById("order-arrow-" + newOrderBy).setAttribute("src", reverseOrder ? DownArrow : UpArrow);
+
+            orderHorses(newOrderBy, !reverseOrder);
+            setReverseOrder(!reverseOrder);
         }
     }
 
-    function orderHorses(newOrderBy=orderBy) {
+    function orderHorses(newOrderBy, reverse) {
         let copyHorses = JSON.parse(JSON.stringify(horses));
 
         copyHorses.sort((a,b) => {
             if (newOrderBy === "usd_price") {
-                return a.usd_price - b.usd_price
+                return (
+                    !reverse 
+                        ? b.usd_price - a.usd_price
+                        : a.usd_price - b.usd_price
+                )
             }
             else if (newOrderBy === "created") {
-                return a.created < b.created ? 1 : a.created > b.created ? -1 : 0;
+                return(
+                    !reverse
+                        ? a.created < b.created ? 1 : a.created > b.created ? -1 : 0
+                        : a.created < b.created ? -1 : a.created > b.created ? 1 : 0
+                )
+            }
+            else if (newOrderBy === "win_percentage") {
+                return (
+                    !reverse 
+                        ? b.attributes.find(h => h.trait_type === "win_percentage").value - a.attributes.find(h => h.trait_type === "win_percentage").value
+                        : a.attributes.find(h => h.trait_type === "win_percentage").value - b.attributes.find(h => h.trait_type === "win_percentage").value
+                )
             }
         })
 
