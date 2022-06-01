@@ -23,13 +23,13 @@ export function NamePlate() {
             <div className="flex justify-items-center">
                 <div className="w-full md:w-1/3">
                     <div className="ml-2 text-3xl float-left">
-                        <Link to="/Horses">
+                        {/* <Link to="/Horses">
                             &#128052;
-                        </Link>
+                        </Link> */}
                     </div>
                 </div>
                 <div className="w-1/3">
-                    <div className="w-28 mt-1 mx-auto text-md font-semibold bg-gray-100 text-gray-700 rounded-md cursor-pointer flex justify-center" onClick={() => window.open("https://gavswe-resume.s3.amazonaws.com/Gavin_Sweeney_Resume.pdf", "_blank")}>
+                    <div className="w-28 mt-1 mx-auto text-md font-semibold bg-gray-100 text-gray-700 rounded-md cursor-pointer flex justify-center" onClick={() => window.open("/GavinSweeneyResume.pdf", "_blank")}>
                         <div>
                             Resume
                         </div>

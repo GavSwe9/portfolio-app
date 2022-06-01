@@ -17,6 +17,7 @@ export const stateInfo = new Map([
         ["2017", "Visited Boston for a conference"]
     ]],
     ["Virginia", [
+        ["1996-1997", "Born in Charlottesville, lived in Ruckersville"],
         ["2001-2015", "Grew up in Salem"],
         ["2015-2018", "Attended the University of Virginia"]
     ]],
@@ -53,7 +54,7 @@ export const stateInfo = new Map([
     ]],
     ["South-Carolina", [
         ["2005-2015", "Family vacation destination"],
-        ["2020", "Parents new home"]
+        ["2020", "Parent's new home"]
     ]],
     ["Texas", [
         ["2009", "University of Texas football game"],
@@ -111,12 +112,11 @@ export const stateInfo = new Map([
         ["2009-2014", "Baseball tournaments"]
     ]],
     ["West-Virginia", [
-        ["1996-1997", "Born in Charlottesville, lived in Ruckersville"],
         ["1996-2021", "Visting family, day trips"],
         ["2013-2015", "Greenbrier Classic"]
     ]],
     ["Arizona", [
-        ["2018-2021", "Lived in Phoenix, Worked for Arizona Diamondbacks"]
+        ["2018-2021", "Lived in Phoenix, Worked for the Arizona Diamondbacks"]
     ]],
     ["New-Mexico", [
         ["2018", "Drove through during cross country drive"],

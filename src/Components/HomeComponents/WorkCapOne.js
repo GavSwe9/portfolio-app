@@ -14,19 +14,25 @@ export function WorkCapOne() {
                 Capital One
             </div>
             <div className="text-xl">
-                Software Developer
+                Software Engineer
             </div>
             <div className="font-semibold mx-5 pb-2 border-b-2 border-blue-50">
                 March 2021 - Present
             </div>
             <div className="w-5/6 mx-auto py-2">
                 <div className="mb-2">
-                    Working within Capital One's travel department
+                    Currently Working within Capital One's travel department
                 </div>
+                <div className="mb-2">
+                    Developing APIs in Node to support the company's new airport lounge initiative
+                </div>
+                <div className="mb-2">
+                    Designing and building infrastructure to distribute and update digital wallet passes for customer lounge entry
+                </div>
+                <div className="mb-2">
+                    Building serverless architecture in AWS to support Apple and Android wallet passes initiatives across Capital One
+                </div>                
             </div>
-
-
         </div>
-
     )
 }

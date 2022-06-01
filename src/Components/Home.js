@@ -5,6 +5,7 @@ import { WorkDbacks } from './HomeComponents/WorkDbacks';
 import { Projects } from './HomeComponents/Projects';
 import { Link } from 'react-router-dom';
 import { WorkCapOne } from './HomeComponents/WorkCapOne';
+import { Certifications } from './HomeComponents/Certifications';
 
 export function Home() {
     return (
@@ -18,6 +19,10 @@ export function Home() {
 
             <div>
                 <Projects />
+            </div>
+
+            <div>
+                <Certifications />
             </div>
 
             <div className="w-64 mx-auto mb-12 text-md border-2 border-gray-700 text-gray-700 rounded-lg block md:hidden hover:bg-gray-100">

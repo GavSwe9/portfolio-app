@@ -10,23 +10,23 @@ export function ZedListHorse(props) {
         currency: 'USD'
     })
 
-    let bloodline = props.horse.attributes.find(a => a.trait_type === "bloodline").value;
+    let bloodline = props.horse.bloodline;
 
     let coatRarity = "unknown";
     try {
-        coatRarity = coatColors[props.horse.attributes.find(a => a.trait_type === "coat_color").value].rarity;
+        coatRarity = coatColors[props.horse.coatColor].rarity;
     } catch (error) {
         console.log(error);
         console.log(props.horse);
     }
 
     function zedClick() {
-        window.open(props.horse.external_link, "_blank");
+        window.open(props.horse.externalUrl, "_blank");
     }
 
     function openSeaClick() {
         console.log("openSeaClick");
-        window.open("https://matic.opensea.io/tokens/" + props.horse.id, "_blank");
+        window.open("https://matic.opensea.io/order/" + props.horse.id, "_blank");
     }
 
     // console.log(coatColors);
@@ -54,7 +54,7 @@ export function ZedListHorse(props) {
                         {props.horse.name}
                     </div>
                     <div className={"uppercase text-sm font-semibold text-gray-600"}>
-                        {props.horse.attributes.find(a => a.trait_type === "gender").value}
+                        {props.horse.gender}
                     </div>
                 </div>
             </div>
@@ -62,10 +62,10 @@ export function ZedListHorse(props) {
             <div className={"w-11/12 lg:w-2/6 my-1 lg:my-0 mx-auto border-b-2 lg:border-b-0 border-" + bloodline + "-200 flex items-center justify-evenly"}>
                 <div className="w-1/2 text-center">
                     <div className={"w-32 mx-auto text-xl bg-" + bloodline + "-200 text-" + bloodline + "-900 rounded-full"}>
-                        {props.horse.attributes.find(a => a.trait_type === "bloodline").value}
+                        {props.horse.bloodline}
                     </div>
                     <div className={"uppercase text-sm font-semibold text-" + bloodline + "-600"}>
-                        {props.horse.attributes.find(a => a.trait_type === "genotype").value} {props.horse.attributes.find(a => a.trait_type === "breed_type").value}
+                        {props.horse.genotype} {props.horse.breedType}
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@ export function ZedListHorse(props) {
                                 </div>
                             </div>
                             <div className="uppercase text-sm font-bold text-green-600 text-right">
-                                {formatter.format(props.horse.usd_price.toFixed(2))}
+                                {formatter.format(props.horse.usdPrice.toFixed(2))}
                             </div>
                         </div>
                         <div className="w-5 text-right text-xl text-gray-500">
@@ -94,7 +94,7 @@ export function ZedListHorse(props) {
             <div className="w-11/12 lg:w-2/6 my-1 lg:my-0 mx-auto flex items-center justify-center md:justify-end">
                 <div className="w-1/2 text-center lg:text-right">
                     <div className="text-xl">
-                        {props.horse.attributes.find(a => a.trait_type === "coat_color").value}
+                        {props.horse.coatColor}
                     </div>
                     <div className="uppercase text-sm font-semibold text-gray-600">
                         {coatRarity}
@@ -103,10 +103,10 @@ export function ZedListHorse(props) {
 
                 <div className="w-1/2 text-center lg:text-right lg:pr-4">
                     <div className="text-xl">
-                        Class {props.horse.attributes.find(a => a.trait_type === "race_class").value}
+                        Class {props.horse.raceClass}
                     </div>
                     <div className="uppercase text-sm font-semibold text-gray-600">
-                        {props.horse.attributes.find(a => a.trait_type === "win_percentage").value}% ({props.horse.attributes.find(a => a.trait_type === "number_of_races").value})
+                        {props.horse.winPercentage}% ({props.horse.numberOfRaces})
                     </div>
                 </div>
             </div>

@@ -102,8 +102,15 @@ export function ZedMarket() {
             copyHorses[i]["active"] = true;
 
             Object.keys(newFilterObj).forEach(k => {
-                if (copyHorses[i].attributes.find(a => a.trait_type === k).value.toLowerCase() !== newFilterObj[k].toLowerCase()) {
-                    copyHorses[i]["active"] = false;
+                if (k === "numberOfRaces") {
+                    if (copyHorses[i][k] !== newFilterObj[k]) {
+                        copyHorses[i]["active"] = false;
+                    }
+                }
+                else {
+                    if (copyHorses[i][k].toLowerCase() !== newFilterObj[k].toLowerCase()) {
+                        copyHorses[i]["active"] = false;
+                    }
                 }
             });
         }
@@ -143,11 +150,11 @@ export function ZedMarket() {
         let copyHorses = JSON.parse(JSON.stringify(horses));
 
         copyHorses.sort((a,b) => {
-            if (newOrderBy === "usd_price") {
+            if (newOrderBy === "usdPrice") {
                 return (
                     !reverse 
-                        ? b.usd_price - a.usd_price
-                        : a.usd_price - b.usd_price
+                        ? b.usdPrice - a.usdPrice
+                        : a.usdPrice - b.usdPrice
                 )
             }
             else if (newOrderBy === "created") {
@@ -157,11 +164,11 @@ export function ZedMarket() {
                         : a.created < b.created ? -1 : a.created > b.created ? 1 : 0
                 )
             }
-            else if (newOrderBy === "win_percentage") {
+            else if (newOrderBy === "winPercentage") {
                 return (
                     !reverse 
-                        ? b.attributes.find(h => h.trait_type === "win_percentage").value - a.attributes.find(h => h.trait_type === "win_percentage").value
-                        : a.attributes.find(h => h.trait_type === "win_percentage").value - b.attributes.find(h => h.trait_type === "win_percentage").value
+                        ? b.winPercentage - a.winPercentage
+                        : a.winPercentage - b.winPercentage
                 )
             }
         })

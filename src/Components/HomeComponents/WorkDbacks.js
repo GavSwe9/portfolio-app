@@ -3,7 +3,7 @@ import dbacksLogo from '../../Images/DBacks-logo.svg'
 
 export function WorkDbacks() {
     return (
-        <div className="w-full pt-4 lg:w-1/2 text-dbacks select-none">
+        <div className="w-full pt-4 lg:w-1/2 bg-white text-dbacks select-none">
             <div className="w-40 mx-auto rounded-full text-lg font-semibold bg-red-200">
                 Work
             </div>

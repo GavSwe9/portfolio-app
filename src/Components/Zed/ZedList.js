@@ -13,10 +13,10 @@ export function ZedList(props) {
             <div className="mt-2 text-center text-sm uppercase font-semibold text-gray-600 shadow-md lg:shadow-none">
                 {qualifiedHorses.length + " Horses Available"}
             </div>
-            <div className="w-full lg:w-11/12 mx-auto lg:mb-5 lg:border-2 border-gray-200 rounded-lg overflow-scroll">
+            <div className="w-full lg:w-11/12 mx-auto lg:mb-5 lg:border-2 border-gray-200 rounded-lg overflow-auto">
                 {horseDisplayList}
                 <div className="m-5">
-                    <div className="w-40 mx-auto text-center rounded-md bg-gray-700 text-gray-50" onClick={props.increaseLimit}>
+                    <div className="w-40 mx-auto text-center rounded-md bg-gray-700 text-gray-50 cursor-pointer" onClick={props.increaseLimit}>
                         Load More
                     </div>
                 </div>
