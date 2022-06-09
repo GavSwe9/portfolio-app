@@ -11,7 +11,7 @@ export function Projects() {
             <div className="w-64 mx-auto mb-4 mt-8 rounded-full text-lg text-gray-700 font-semibold bg-gray-200 select-none">
                 Links & Projects
             </div>
-            <div className="flex justify-evenly flex-wrap">
+            <div className="flex justify-around flex-wrap">
                 <Github />
                 <MondayRankings />
                 {/* <DraftPrince /> */}

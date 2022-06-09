@@ -2,7 +2,7 @@ import React from 'react'
 
 export function IndexNfl() {
     return (
-        <div className="w-5/6 md:w-7/12 lg:w-1/4 text-gray-700 border-2 border-gray-200 rounded-md cursor-pointer hover:border-blue-500 hover:bg-blue-100" onClick={()=> window.open("https://indexnfl.com/", "_blank")}>
+        <div className="w-5/6 md:w-7/12 lg:w-1/4 mb-5 text-gray-700 border-2 border-gray-200 rounded-md cursor-pointer hover:border-blue-500 hover:bg-blue-100" onClick={()=> window.open("https://indexnfl.com/", "_blank")}>
             <div className="h-24 py-2 text-7xl">
                 <img className="h-20 mx-auto" src={"https://static.www.nfl.com/image/upload/v1554321393/league/nvfr7ogywskqrfaiu38m.svg"} alt="" />
             </div>

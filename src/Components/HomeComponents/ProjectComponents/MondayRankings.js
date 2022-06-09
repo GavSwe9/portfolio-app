@@ -3,7 +3,7 @@ import MondayRankingsLogo from '../../../Images/MondayRankingsLogo.svg'
 
 export function MondayRankings() {
     return (
-        <div className="w-5/6 md:w-7/12 lg:w-1/4 border-2 text-gray-700 border-gray-200 rounded-md cursor-pointer hover:border-orange-500 hover:bg-orange-100" onClick={()=> window.open("https://mondayrankings.com/", "_blank")}>
+        <div className="w-5/6 md:w-7/12 lg:w-1/4 mb-5 border-2 text-gray-700 border-gray-200 rounded-md cursor-pointer hover:border-orange-500 hover:bg-orange-100" onClick={()=> window.open("https://mondayrankings.com/", "_blank")}>
             <div className="h-24 py-2">
                 <img className="h-20 mx-auto" src={MondayRankingsLogo} alt="" />
             </div>
