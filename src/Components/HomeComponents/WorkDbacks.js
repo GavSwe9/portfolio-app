@@ -3,12 +3,12 @@ import dbacksLogo from '../../Images/DBacks-logo.svg'
 
 export function WorkDbacks() {
     return (
-        <div className="w-full pt-4 lg:w-1/2 bg-white text-dbacks select-none">
-            <div className="w-40 mx-auto rounded-full text-lg font-semibold bg-red-200">
+        <div className="w-full pt-4 lg:w-1/2 bg-dbacks text-red-50 select-none">
+            <div className="w-40 mx-auto rounded-full text-lg font-semibold bg-red-50 text-dbacks">
                 Work
             </div>
             <div className="w-full">
-                <img className="h-24 mx-auto py-4" src={dbacksLogo} alt="" />
+                <img className="h-24 w-48 mx-auto py-4" src={dbacksLogo} alt="" />
             </div>
             <div className="text-xl font-semibold">
                 Arizona Diamondbacks
@@ -16,7 +16,7 @@ export function WorkDbacks() {
             <div className="text-xl">
                 Software Developer, R&D, Baseball Systems
             </div>
-            <div className="font-semibold mx-5 pb-2 border-b-2 border-dbacks">
+            <div className="font-semibold mx-5 pb-2 border-b-2 border-red-200">
                 October 2017 - January 2021
             </div>
             <div className="w-5/6 mx-auto py-2">

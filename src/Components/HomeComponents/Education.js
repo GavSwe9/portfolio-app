@@ -3,7 +3,7 @@ import uvaLogo from '../../Images/UVa-logo-blue.png'
 
 export function Education(){
     return (
-        <div className="w-full pt-4 lg:w-1/2 bg-orange-600 text-orange-50 select-none">
+        <div className="w-5/6 md:w-2/3 mt-10 mb-10 rounded-md ml-auto mr-auto pt-4 bg-orange-600 text-orange-50 select-none shadow-lg">
             <div className="w-40 mx-auto rounded-full text-lg text-orange-600 font-semibold bg-orange-50">
                 Education
             </div>
@@ -25,9 +25,6 @@ export function Education(){
                 </div>
                 <div className="mb-2">
                     Coursework includes Computer Programming, Data Structures, Web Development, and Data Analysis 
-                </div>
-                <div className="mb-2">
-                    Pitcher on the Club Baseball team 
                 </div>
             </div>
         </div>

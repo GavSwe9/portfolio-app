@@ -6,15 +6,19 @@ import { Projects } from './HomeComponents/Projects';
 import { Link } from 'react-router-dom';
 import { WorkCapOne } from './HomeComponents/WorkCapOne';
 import { Certifications } from './HomeComponents/Certifications';
+import { WorkSquare } from './HomeComponents/WorkSquare';
 
 export function Home() {
     return (
         <div className="text-center">
 
             <div className="lg:flex shadow-lg">
-                <Education />
                 <WorkDbacks />
                 <WorkCapOne />
+                <WorkSquare />
+            </div>
+            <div> 
+                <Education />
             </div>
 
             <div>
