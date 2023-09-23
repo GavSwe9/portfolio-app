@@ -17,7 +17,7 @@ export function WorkCapOne() {
                 Software Engineer
             </div>
             <div className="font-semibold mx-5 pb-2 border-b-2 border-capOne">
-                March 2021 - Present
+                March 2021 - December 2022
             </div>
             <div className="w-5/6 mx-auto py-2">
                 <div className="mb-2">

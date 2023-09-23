@@ -17,7 +17,7 @@ export function WorkSquare() {
                 Software Engineer
             </div>
             <div className="font-semibold mx-5 pb-2 border-b-2 border-gray-200">
-                January 2023 - Present
+                December 2022 - Present
             </div>
             <div className="w-5/6 mx-auto py-2">
                 <div className="mb-2">

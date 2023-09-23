@@ -128,5 +128,8 @@ export const stateInfo = new Map([
     ["District-of-Columbia", [
         ["2015", "Wizards game"],
         ["2010-2020", "Visited friends and family"]
+    ]],
+    ["South-Dakota", [
+        ["2023", "Road Trip"]
     ]]
 ])

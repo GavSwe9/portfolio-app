@@ -8,7 +8,7 @@ export const statesVisited = new Map([
     ["Colorado", 2],
     ["Idaho", 2],
     ["Massachusetts", 2],
-    ["South-Dakota", 1],
+    ["South-Dakota", 2],
     ["Virginia", 1],
     ["Maine", 0],
     ["Wisconsin", 2],
