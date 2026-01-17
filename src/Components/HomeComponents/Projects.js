@@ -4,6 +4,7 @@ import { Github } from './ProjectComponents/Github'
 import { IndexNfl } from './ProjectComponents/IndexNfl'
 import { MondayRankings } from './ProjectComponents/MondayRankings'
 import { ZedExchange } from './ProjectComponents/ZedExchange'
+import { NHLDraftAudit } from './ProjectComponents/NHLDraftAudit'
 
 export function Projects() {
     return (
@@ -16,7 +17,8 @@ export function Projects() {
                 <MondayRankings />
                 {/* <DraftPrince /> */}
                 {/* <ZedExchange /> */}
-                <IndexNfl />
+                {/* <IndexNfl /> */}
+                <NHLDraftAudit />
             </div>
         </div>
     )

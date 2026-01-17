@@ -7,7 +7,7 @@ export const stateInfo = new Map([
         ["2020", "Stayed in Park City while working remotely"]
     ]],
     ["Colorado", [
-        ["2020", "Stayed in Breckenridge while working remotely"]
+        ["2023-2025", "Lived in Denver"]
     ]],
     ["Idaho", [
         ["2020", "Crossed into Idaho to golf while staying in Wyoming"]
@@ -91,11 +91,13 @@ export const stateInfo = new Map([
         ["2012", "Baseball tournament, Reds game"]
     ]],
     ["Oregon", [
-        ["2019", "Thanksgiving in Bandon"]
+        ["2019", "Thanksgiving in Bandon"],
+        ["2024", "Family moved to Bend"]
     ]],
     ["California", [
         ["2014", "Family vacation"],
-        ["2018-2020", "Visited brothers"]
+        ["2018-2020", "Visited brothers"],
+        ["2025", "Moved to Orange County"]
     ]],
     ["Nevada", [
         ["2013", "Family vacation"],
@@ -128,6 +130,9 @@ export const stateInfo = new Map([
     ["District-of-Columbia", [
         ["2015", "Wizards game"],
         ["2010-2020", "Visited friends and family"]
+    ]],
+    ["Washington", [
+        ["2025", "Visited friends in Seattle"]
     ]],
     ["South-Dakota", [
         ["2023", "Road Trip"]
