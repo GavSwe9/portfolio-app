@@ -14,7 +14,7 @@ export function NHLDraftAudit() {
                     A tool to look back at historical NHL drafts and compare the on-ice output of players to their draft class and position.
                 </div>
                 <div className="mb-2">
-                    AWS RDS MySql database with data pipelines written in Go to pull data from the NHL API
+                    AWS RDS MySql database with data pipelines written in Go
                 </div>
                 <div className="mb-2">
                     Serverless API written in GO, deployed as AWS Lambdas
