@@ -17,7 +17,7 @@ export function NHLDraftAudit() {
                     AWS RDS MySql database with data pipelines written in Go
                 </div>
                 <div className="mb-2">
-                    Serverless API written in GO, deployed as AWS Lambdas
+                    Serverless API written in Go, deployed as AWS Lambdas
                 </div>
                 <div className="mb-2">
                     Website built with React and TypeScript
